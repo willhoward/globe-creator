@@ -1,0 +1,14 @@
+{
+  "name": "globe",
+  "version": "1.0.0",
+  "description": "A tool to create beautiful WebGL globes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "willhoward",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "three": "^0.123.0"
+  }
+}
