@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import mapImageString from './map-image.js';
 
-const renderGlobe = (
+const renderGlobe = ({
   canvas = null,
   antialias = true,
   cameraFOV = 90,
@@ -25,7 +25,7 @@ const renderGlobe = (
   sunIntensity = 0.4,
   highlightColor = 0x004188,
   highlightIntensity = 0.2,
-) => {
+}) => {
   // Define the scene constants
   const CANVAS = canvas;
   const ANTIALIAS = antialias;
