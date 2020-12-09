@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import mapImageString from './map-image.js';
 
 const renderGlobe = (
   canvas = null,
@@ -14,7 +15,7 @@ const renderGlobe = (
   landRadius = 600,
   earthWidthSegments = 48,
   earthHeightSegments = 48,
-  landImage = './map.png',
+  landImage = mapImageString,
   backgroundColor = 0x001933,
   ambientLightColor = 0x004188,
   ambientLightIntensity = 0.3,
