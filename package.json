@@ -1,6 +1,6 @@
 {
   "name": "globe-creator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create beautiful WebGL globes.",
   "main": "index.js",
   "dependencies": {
