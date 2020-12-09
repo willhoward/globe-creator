@@ -1,6 +1,6 @@
 {
   "name": "globe-creator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create beautiful WebGL globes.",
   "main": "index.js",
   "dependencies": {
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/willhoward/globe.git"
+    "url": "git+https://github.com/willhoward/globe-creator.git"
   },
   "author": "willhoward",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/willhoward/globe/issues"
+    "url": "https://github.com/willhoward/globe-creator/issues"
   },
-  "homepage": "https://github.com/willhoward/globe#readme"
+  "homepage": "https://github.com/willhoward/globe-creator#readme"
 }
