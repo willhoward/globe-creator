@@ -61,6 +61,8 @@ The number of width segments used to render the earth. Higher numbers will resul
 The number of height segments used to render the earth. Higher numbers will result in a smoother-looking sphere but may impact performance.
 * *landImage* _(optional, format: PNG image, passed directly or as a base64 string, default: base 64 string image of continent land masses)_:
 The image used to mask the land dots and create shapes on the surface of the earth. By default the dots are masked using an image of the continent land masses. This must be a PNG image including transparency, passed directly or as a base64 string.
+* *background* _(optional, format: boolean, default: true)_:
+Whether or not the scene has a background.
 * *backgroundColor* _(optional, format: Threejs Vec3 color, default: 0x001933)_:
 The background color of the scene.
 * *ambientLightColor* _(optional, format: Threejs Vec3 color, default: 0x004188)_:

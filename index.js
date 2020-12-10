@@ -16,6 +16,7 @@ const renderGlobe = ({
   earthWidthSegments = 48,
   earthHeightSegments = 48,
   landImage = mapImageString,
+  background = true,
   backgroundColor = 0x001933,
   ambientLightColor = 0x004188,
   ambientLightIntensity = 0.3,
@@ -45,6 +46,7 @@ const renderGlobe = ({
   const LAND_IMAGE = landImage;
 
   // Define the colors and light constants
+  const BACKGROUND = background;
   const BACKGROUND_COLOR = backgroundColor;
   const AMBIENT_LIGHT_COLOR = ambientLightColor;
   const AMBIENT_LIGHT_INTENSITY = ambientLightIntensity;
@@ -138,7 +140,9 @@ const renderGlobe = ({
     // Set up the scene.
     const scene = new THREE.Scene();
 
-    scene.background = new THREE.Color(BACKGROUND_COLOR);
+    if (background) {
+      scene.background = new THREE.Color(BACKGROUND_COLOR);
+    }
 
     // Create the earth mesh from its geometry and material.
     const earthGeometry = new THREE.SphereBufferGeometry(
